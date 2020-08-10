@@ -1,0 +1,125 @@
+<style>
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+body , h1{
+  margin: 0;
+  padding: 0;
+}
+.user-box{
+color: white;
+font-family: sans-serif;
+width: 250px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+/* background-color: brown; */
+
+}
+.user-box h1{
+margin-bottom: 40px;
+padding: 20px 0;
+border-bottom: 5px solid rgb(228, 83, 83);
+float: left;
+font-size: 45px;
+}
+.user-input {
+width: 100%;
+overflow: hidden;
+padding: 10px 0;
+margin: 10px 0;
+border-bottom: 2px solid rgb(228, 83, 83);
+font-size: 20px;
+}
+.user-input input{
+background: none;
+border: none;
+outline: none;
+color: white;
+font-size: 20px;
+width: 80%;
+float: left;
+margin: 0 10px;
+}
+.user-input i{
+float: left;
+width: 20px;
+text-align: center;
+
+}
+#submit{
+width: 100%;
+background: none;
+color: white;
+margin: 15px 0;
+padding: 10px 0;
+font-size: 20px;
+outline: none;
+border: 2px solid rgb(228, 83, 83);
+cursor: pointer;
+}
+#submit:hover{
+border: 2px solid rgb(82, 142, 170);
+}
+#some{
+color: rgb(255, 255, 255);
+width: 600px;
+position: fixed;
+top:50%;
+left: 50%;
+transform: translate(-50%, -50%) ;
+background-color: rgb(37, 37, 37);
+padding: 20px;
+z-index: 10;
+display: none;
+border-radius: 10px;
+border: 2px solid rgb(228, 83, 83);
+box-shadow: 5px 5px 5px rgb(68, 41, 99);
+opacity: 0.9;
+}
+#some {
+-webkit-animation: animatezoom 0.8s;
+animation: animatezoom 0.8s;
+width: auto;
+transition: 5s;
+}
+
+@keyframes animatezoom {
+from {
+top: 0px;
+}
+to {
+top:50%; 
+}
+}
+
+#close:hover{
+background-color: red;
+border: 2px solid red;
+}
+
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 2px solid rgb(228, 83, 83);
+font-family:sans-serif;
+
+}
+.close{
+font-weight: bold;
+font-size: 30px;
+padding: 0px 10px;
+background-color: rgb(107, 103, 103);
+}
+.bodyContent{
+font-family:sans-serif;
+font-size: 18px;
+}
+#notification{
+color: white;
+
+margin-left: 100px;
+}
+
+</style>
